@@ -1,0 +1,42 @@
+@charset "utf-8";
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+    
+    background: #fff;
+    
+    display: grid;
+    grid-template-columns: 1.15fr 4fr;
+    grid-template-rows: 150px auto;
+    grid-template-areas:
+        "header header"
+        "nav main-content";
+}
+
+.page-header {
+    grid-area: header;
+    
+    box-shadow: 0 0 5px black;
+    
+    background: #EA202C;
+}
+
+.page-header h1 {
+    color: #342009;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 64px;
+}
+
+.page-nav {
+    grid-area: nav;
+}
+
+.main-content {
+    grid-area: main-content;
+}
