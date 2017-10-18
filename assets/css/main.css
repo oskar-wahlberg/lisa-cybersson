@@ -9,18 +9,26 @@ body {
     width: 100%;
     min-height: 100vh;
     
-    background: #fff;
+    background: #FFFFFF;
     
     display: grid;
     grid-template-columns: 1.15fr 4fr;
-    grid-template-rows: 150px auto;
+    grid-template-rows: 100px auto;
     grid-template-areas:
         "header header"
         "nav main-content";
 }
 
+/* HEADER STYLING */
+
 .page-header {
     grid-area: header;
+    
+    z-index: 10;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
     box-shadow: 0 0 5px black;
     
@@ -33,10 +41,89 @@ body {
     font-size: 64px;
 }
 
+/* NAV STYLING */
+
 .page-nav {
     grid-area: nav;
+    
+    z-index: 9;
+    
+    width: 100%;
+    height: auto;
+    
+    box-shadow: 0 0 5px black;
+    
+    background: #F7D4D6;
+}
+
+.nav-header {
+    background: #d9d9d9;
+}
+
+.page-nav h1 {
+    padding: 25px 0 25px 0;
+    
+    color: #342009;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.link-list {
+    width: calc(100% - 4px);
+    height: auto;
+}
+
+.link-holder {
+    width: 100%;
+    height: 60px;
+}
+
+.link-holder-last {
+    border-bottom: 1px solid #F8A7AC;
+}
+
+.link {
+    display: block;
+    
+    width: calc(100% - 30px);
+    height: 100%;
+    
+    padding-left: 30px;
+    
+    border: 2px outset #EDEDED;
+    
+    background: #EDEDED;
+    
+    color: #342009;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 32px;
+    line-height: 60px;
+    text-decoration: none;
+    text-transform: uppercase;
+    
+    transition: all .15s;
+}
+
+.cl:hover {
+    padding-left: 40px;
+    
+    border: 2px inset #DEDEDE;
+    
+    background: #D6D6D6;
 }
 
 .main-content {
     grid-area: main-content;
+}
+
+/*
+ * GLOBAL CLASSES
+ */
+
+.active {
+    border: 2px inset #DEDEDE;
+    background: #C3C3C3;
 }
