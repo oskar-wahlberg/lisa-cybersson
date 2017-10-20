@@ -32,7 +32,7 @@ body {
     
     box-shadow: 0 0 5px black;
     
-    background: #EA202C;
+    background: #1995AD;
 }
 
 .page-header h1 {
@@ -53,11 +53,11 @@ body {
     
     box-shadow: 0 0 5px black;
     
-    background: #F7D4D6;
+    background: #A1D6E2;
 }
 
 .nav-header {
-    background: #F2B2B5;
+    background: #58A6B7;
 }
 
 .nav-header h1 {
@@ -89,7 +89,7 @@ body {
     
     padding-left: 30px;
     
-    background: #F7D4D6;
+    background: #A1D6E2;
     
     color: #342009;
     font-family: 'Source Code Pro', monospace;
@@ -104,7 +104,7 @@ body {
     width: calc(100% - 40px);
     padding-left: 40px;
     
-    background: #F8C4C7;
+    background: #ACE1ED;
 }
 
 .link-header-container {
@@ -119,7 +119,7 @@ body {
     text-align: center;
     text-decoration: underline;
     
-    background: #F7D4D6;
+    background: #A1D6E2;
 }
 
 .main-content {
@@ -127,12 +127,12 @@ body {
 }
 
 /*
- * GLOBAL CLASSES
+ * GLOBAL CLASSES & IDS
  */
 
 .active {
     width: 100%;
     padding-left: 0;
     text-align: center;
-    background: #F8C4C7;
+    background: #8BCBD9;
 }

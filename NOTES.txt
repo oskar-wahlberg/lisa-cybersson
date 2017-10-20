@@ -1,0 +1,10 @@
+NOTES FOR REMEMBERING WHAT TO DO
+
+* Change color scheme to a better one.
+
+Test Color Scheme:
+
+overcast     #F1F1F2
+warm grey    #BCBABE
+ice          #A1D6E2
+glacier blue #1995AD

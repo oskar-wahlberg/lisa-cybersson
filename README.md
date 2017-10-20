@@ -3,16 +3,16 @@ Repository för projekt personas, Lisa Cybersson
 
 ---
 
-Color Scheme:
+## Color Scheme:
 
-#F7D4D6
+* #F7D4D6
   
-#EA202C
+* #EA202C
 
-#448D76
+* #448D76
   
-#FB8604
+* #FB8604
 
-#342009
+* #342009
 
 ---

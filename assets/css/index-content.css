@@ -1,0 +1,333 @@
+@charset "utf-8";
+
+.content-holder {
+    width: 95%;
+    min-height: 100px;
+    
+    margin: 25px auto;
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    grid-gap: 10px;
+    grid-template-areas:
+        "html html"
+        "css js"
+        "serverside serverside"
+}
+
+.html-box {
+    grid-area: html;
+    
+    height: 300px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+}
+
+.html-box h2 {
+/*    color: #D11C1C;*/
+    color: #342009;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 48px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/*.html-box h2::before { color: black; content: "</"; }*/
+
+/*.html-box h2::after { color: black; content: ">"; }*/
+
+.html-box h3 {
+    margin-top: 10px;
+    font-family: 'Code Source Pro', monospace;
+    font-size: 24px;
+}
+
+.html-box .buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    width: 650px;
+    height: 75px;
+    
+    margin-top: 15px;
+}
+
+.html-box .buttons button {
+    width: 300px;
+    height: 100%;
+    
+    border: none;
+    
+    box-shadow: 0 0 3px black;
+    
+    background: #448D76;
+    
+    cursor: pointer;
+}
+
+.html-box .buttons button:hover {
+    background: #3FBC95;
+    box-shadow: 0 0 10px #656565;
+}
+
+.html-box .buttons button p {
+    color: #342009;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.css-box{
+    grid-area: css;
+    
+    height: 300px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+}
+
+.css-box h2 {
+    color: #342009;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.css-box h3 {
+    margin-top: 10px;
+    
+    color: #342009;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 20px;
+}
+
+.css-box .buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    width: 400px;
+    height: 75px;
+    
+    margin-top: 15px;
+}
+
+.css-box .buttons button {
+    width: 190px;
+    height: 100%;
+    
+    border: none;
+    
+    box-shadow: 0 0 3px black;
+    
+    background: #448D76;
+    
+    cursor: pointer;
+}
+
+.css-box .buttons button:hover {
+    background: #3FBC95;
+    box-shadow: 0 0 10px #656565;
+}
+
+.css-box .buttons button p {
+    color: #342009;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.js-box {
+    grid-area: js;
+    
+    height: 300px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+}
+
+.js-box h2 {
+    color: #342009;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.js-box h3 {
+    margin-top: 10px;
+    
+    color: #342009;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 20px;
+}
+
+.js-box .buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    width: 400px;
+    height: 75px;
+    
+    margin-top: 15px;
+}
+
+.js-box .buttons button {
+    width: 190px;
+    height: 100%;
+    
+    border: none;
+    
+    box-shadow: 0 0 3px black;
+    
+    background: #448D76;
+    
+    cursor: pointer;
+}
+
+.js-box .buttons button:hover {
+    background: #3FBC95;
+    box-shadow: 0 0 10px #656565;
+}
+
+.js-box .buttons button p {
+    color: #342009;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.server-side-lang-box {
+    grid-area: serverside;
+    
+    width: 100%;
+    height: 350px;
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.sql-box {
+    width: 30%;
+    height: 300px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+}
+
+.sql-box h2 {
+    color: #342009;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.sql-box h3 {
+    margin-top: 10px;
+    
+    color: #342009;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 16px;
+    text-align: center;
+}
+
+.sql-box button {
+    width: 190px;
+    height: 75px;
+    
+    margin-top: 15px;
+    
+    border: none;
+    
+    box-shadow: 0 0 3px black;
+    
+    background: #448D76;
+    
+    cursor: pointer;
+}
+
+.sql-box button:hover {
+    background: #3FBC95;
+    box-shadow: 0 0 10px #656565;
+}
+
+.sql-box button p {
+    color: #342009;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.php-box {
+    width: 30%;
+    height: 300px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+}
+
+.php-box h2 {
+    color: #342009;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.php-box h3 {
+    color: #342009;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 16px;
+    text-align: center;
+}
+
+.php-box button {
+    width: 190px;
+    height: 75px;
+    
+    margin-top: 15px;
+    
+    border: none;
+    
+    box-shadow: 0 0 3px black;
+    
+    background: #448D76;
+    
+    cursor: pointer;
+}
+
+.php-box button:hover {
+    background: #3FBC95;
+    box-shadow: 0 0 10px #656565;
+}
+
+.php-box button p {
+    color: #342009;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.content-box {
+    box-shadow: 0 0 3px #A9A9A9;
+    
+    background: #F1F1F2;
+}
+
+.sub-content-box {
+    box-shadow: 0 0 7px #A9A9A9;
+    background: #FFF;
+}

@@ -11,6 +11,7 @@
         <link rel="stylesheet" href="assets/lib/css/reset.css">
         <!-- CSS - My own -->
         <link rel="stylesheet" href="assets/css/main.css">
+        <link rel="stylesheet" href="assets/css/index-content.css">
     </head>
     
     <body>
@@ -34,11 +35,11 @@
                     </li>
                     
                     <li class="link-holder">
-                        <a href="#" class="link cl">Learn HTML</a>
+                        <a href="subpages/learn-html.html" class="link cl">Learn HTML</a>
                     </li>
                     
                     <li class="link-holder">
-                        <a href="#" class="link cl">Learn CSS</a>
+                        <a href="subpages/learn-css.html" class="link cl">Learn CSS</a>
                     </li>
                     
                     <li class="link-header-container">
@@ -46,7 +47,7 @@
                     </li>
                     
                     <li class="link-holder">
-                        <a href="#" class="link cl">Learn JavaScript</a>
+                        <a href="subpages/learn-js.html" class="link cl">Learn JavaScript</a>
                     </li>
                     
                     <li class="link-header-container">
@@ -54,16 +55,81 @@
                     </li>
                     
                     <li class="link-holder">
-                        <a href="#" class="link cl">Learn PHP</a>
+                        <a href="subpages/learn-php.html" class="link cl">Learn PHP</a>
                     </li>
                     
                     <li class="link-holder">
-                        <a href="#" class="link cl">Learn SQL</a>
+                        <a href="subpages/learn-sql.html" class="link cl">Learn SQL</a>
                     </li>
                 </ul>
             </nav>
             
-            <main class="main-content"></main>
+            <main class="main-content">
+                <section class="content-holder">
+                    <section class="content-box html-box">
+                        <h2>html</h2>
+                        <h3>The language for building web pages</h3>
+                        <section class="buttons">
+                            <button onclick="LearnHTML();">
+                                <p>Learn HTML</p>
+                            </button>
+                            
+                            <button onclick="HTMLReference();">
+                                <p>HTML Reference</p>
+                            </button>
+                        </section>
+                    </section>
+                    
+                    <section class="content-box css-box">
+                        <h2>CSS</h2>
+                        <h3>The language for styling web pages</h3>
+                        <section class="buttons">
+                            <button onclick="LearnCSS();">
+                                <p>Learn CSS</p>
+                            </button>
+                            
+                            <button onclick="CSSReference();">
+                                <p>CSS Reference</p>
+                            </button>
+                        </section>
+                    </section>
+                    
+                    <section class="content-box js-box">
+                        <h2>JavaScript</h2>
+                        <h3>The language for programming web pages</h3>
+                        <section class="buttons">
+                            <button onclick="LearnJS();">
+                                <p>Learn JavaScript</p>
+                            </button>
+                            
+                            <button onclick="JSReference();">
+                                <p>JavaScript Reference</p>
+                            </button>
+                        </section>
+                    </section>
+                    
+                    <section class="content-box server-side-lang-box">
+                        <section class="sub-content-box sql-box">
+                            <h2>SQL</h2>
+                            <h3>A language for accessing databases</h3>
+                            <button onclick="LearnSQL();">
+                                <p>Learn SQL</p>
+                            </button>
+                        </section>
+                        <section class="sub-content-box php-box">
+                            <h2>PHP</h2>
+                            <h3>A web server programming language</h3>
+                            <button onclick="LearnPHP();">
+                                <p>Learn PHP</p>
+                            </button>
+                        </section>
+                    </section>
+                </section>
+            </main>
         </div>
+        
+        <!-- My Scripts-->
+        <script src="assets/js/main.js"></script>
+        <script src="assets/js/index-buttons.js"></script>
     </body>
 </html>
