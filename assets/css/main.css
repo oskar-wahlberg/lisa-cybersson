@@ -57,11 +57,11 @@ body {
 }
 
 .nav-header {
-    background: #d9d9d9;
+    background: #F2B2B5;
 }
 
-.page-nav h1 {
-    padding: 25px 0 25px 0;
+.nav-header h1 {
+    padding: 15px 0 15px 0;
     
     color: #342009;
     font-family: 'Source Code Pro', monospace;
@@ -72,17 +72,13 @@ body {
 }
 
 .link-list {
-    width: calc(100% - 4px);
+    width: 100%;
     height: auto;
 }
 
 .link-holder {
     width: 100%;
-    height: 60px;
-}
-
-.link-holder-last {
-    border-bottom: 1px solid #F8A7AC;
+    height: 40px;
 }
 
 .link {
@@ -93,26 +89,37 @@ body {
     
     padding-left: 30px;
     
-    border: 2px outset #EDEDED;
-    
-    background: #EDEDED;
+    background: #F7D4D6;
     
     color: #342009;
     font-family: 'Source Code Pro', monospace;
-    font-size: 32px;
-    line-height: 60px;
+    font-size: 24px;
+    line-height: 40px;
     text-decoration: none;
-    text-transform: uppercase;
     
     transition: all .15s;
 }
 
 .cl:hover {
+    width: calc(100% - 40px);
     padding-left: 40px;
     
-    border: 2px inset #DEDEDE;
+    background: #F8C4C7;
+}
+
+.link-header-container {
+    width: 100%;
     
-    background: #D6D6D6;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    
+    color: #342009;
+    font-size: 24px;
+    font-family: 'Source Code Pro', monospace;
+    text-align: center;
+    text-decoration: underline;
+    
+    background: #F7D4D6;
 }
 
 .main-content {
@@ -124,6 +131,8 @@ body {
  */
 
 .active {
-    border: 2px inset #DEDEDE;
-    background: #C3C3C3;
+    width: 100%;
+    padding-left: 0;
+    text-align: center;
+    background: #F8C4C7;
 }
