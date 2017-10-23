@@ -9,6 +9,8 @@
         <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet"> <!-- font-family: 'Source Code Pro', monospace;-->
         <!-- CSS - Reset -->
         <link rel="stylesheet" href="../../assets/lib/css/reset.css">
+        <!-- CSS - Font Awesome -->
+        <link rel="stylesheet" href="../../assets/lib/css/font-awesome-4.7.0/css/font-awesome.min.css">
         <!-- CSS - My own -->
         <link rel="stylesheet" href="../../assets/css/main.css">
         <link rel="stylesheet" href="../../assets/css/reference/html-reference.css">
@@ -16,6 +18,11 @@
     
     <body>
         <div class="container">
+            <!-- FIXED GLOBAL ELEMENTS START -->
+            
+            <button onclick="ScrollToTop();" id="bttb"><i class="fa fa-arrow-up"></i></button>
+            
+            <!--  FIXED GLOBAL ELEMENTS END  -->
             <header class="page-header">
                 <h1>Code Source</h1>
             </header>
@@ -809,5 +816,6 @@
         
         <!-- My Scripts -->
         <script src="../../assets/js/main.js"></script>
+        <script src="../../assets/js/bttb-scroll.js"></script>
     </body>
 </html>

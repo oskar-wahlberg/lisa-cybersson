@@ -136,3 +136,31 @@ body {
     text-align: center;
     background: #8BCBD9;
 }
+
+#bttb {
+    display: none;
+    width: 50px;
+    height: 50px;
+    
+    position: fixed;
+    bottom: 0;
+    right: 25px;
+    
+    border: none;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    
+    color: #4D4D4D;
+    font-size: 24px;
+    
+    background: #141212;
+    
+    cursor: pointer;
+    outline: none;
+    
+    z-index: 999;
+}
+
+#bttb:hover {
+    background: #242020;
+}
