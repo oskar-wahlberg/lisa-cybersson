@@ -1,1 +1,141 @@
 @charset "utf-8";
+
+.content-holder {
+    width: 95%;
+    min-height: 100px;
+    
+    margin: 25px auto;
+    
+    padding-bottom: 15px;
+    
+    box-shadow: 0 0 3px #7B7B7B;
+    
+    background: #F1F1F1;
+}
+
+.content-header {
+    width: 100%;
+    height: 75px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-header h1 {
+    font-family: 'Source Code Pro', monospace;
+    font-size: 38px;
+}
+
+.common-questions {
+    width: 100%;
+    min-height: 100px;
+    
+    border-top: 1px solid #aaa;
+    border-bottom: 1px solid #aaa;
+    
+    background: #EAEAEA;
+}
+
+.common-questions h2 {
+    margin-top: 10px;
+    margin-left: 25px;
+    
+    font-family: 'Source Code Pro', monospace;
+    font-size: 32px;
+}
+
+.q-list {
+    margin-top: 10px;
+    
+    padding-top: 10px;
+    
+    margin-right: 75px;
+    margin-left: 75px;
+    
+    border-top: 1px solid #aaa;
+}
+
+.ql-item {
+    padding-bottom: 25px;
+}
+
+.q {
+    font-size: 24px;
+    font-family: 'Source Code Pro', monospace
+}
+
+.a-holder {
+    width: calc(100% - 45px);
+    min-height: 10px;
+    
+    margin-top: 5px;
+    margin-left: 10px;
+    
+    padding: 5px 10px;
+    
+    border-left: 5px solid #49C749;
+    
+    background: #B1EBB1;
+}
+
+.a-holder p {
+    font-family: 'Source Code Pro', monospace;
+    font-size: 20px;
+}
+
+.example-section {
+    width: 100%;
+    min-height: 100px;
+    
+    background: #F1F1F1;
+}
+
+.example-section h1 {
+    margin-top: 10px;
+    margin-left: 25px;
+    color: #000;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 32px;
+}
+
+.example-section h2 {
+    margin-top: 5px;
+    margin-left: 30px;
+    
+    color: #000;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 16px;
+}
+
+.code-example {
+    width: 80%;
+    min-height: 100px;
+    
+    margin-top: 10px;
+    margin-left: 85px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

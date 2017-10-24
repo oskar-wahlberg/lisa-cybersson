@@ -1,0 +1,99 @@
+@charset "utf-8";
+
+/* General design for all text in the code snippet, can be changed later */
+
+.code-snippet {
+    padding-top: 2px;
+    padding-bottom: 4px;
+    
+    border-left: 5px solid #49C749;
+    
+    box-shadow: 0 0 7px #999;
+    
+    background: #231f45;
+}
+
+.code-snippet p {
+    display: inline;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 16px;
+}
+
+.p { color: #fff; }
+
+/* ROWS */
+
+.row { padding-left: 0px; }
+.row-1 { padding-left: 25px; }
+.row-2 { padding-left: 50px; }
+.row-3 { padding-left: 75px; }
+.row-4 { padding-left: 100px; }
+.row-5 { padding-left: 125px; }
+.row-6 { padding-left: 150px; }
+.row-7 { padding-left: 175px; }
+.row-8 { padding-left: 200px; }
+.row-9 { padding-left: 225px; }
+.row-10 { padding-left: 250px; }
+.row-11 { padding-left: 275px; }
+.row-12 { padding-left: 300px; }
+.row-13 { padding-left: 325px; }
+.row-14 { padding-left: 350px; }
+.row-15 { padding-left: 375px; }
+
+.blank-row { width: 21px; height: 21px; }
+
+/* TAGS */
+
+.body-o { color: deeppink; }
+.body-o::before { color: deeppink; content: "<"; }
+.body-o::after { color: deeppink; content: ">"; }
+
+.body-c { color: deeppink; }
+.body-c::before { color: deeppink; content: "</"; }
+.body-c::after { color: deeppink; content: ">"; }
+
+.charset { color: aqua; }
+
+.doctype { color: white; }
+.doctype::before { color: white; content: "<!"; }
+.doctype::after { color: white; content: ">"; }
+
+.h1-o { color: deeppink; }
+.h1-o::before { color: deeppink; content: "<"; }
+.h1-o::after { color: deeppink; content: ">"; }
+
+.h1-c { color: deeppink; }
+.h1-c::before { color: deeppink; content: "</"; }
+.h1-c::after { color: deeppink; content: ">"; }
+
+.head-o { color: deeppink; }
+.head-o::before { color: deeppink; content: "<"; }
+.head-o::after { color: deeppink; content: ">"; }
+
+.head-c { color: deeppink; }
+.head-c::before { color: deeppink; content: "</"; }
+.head-c::after { color: deeppink; content: ">"; }
+
+.html-o { color: deeppink; }
+.html-o::before { color: deeppink; content: "<"; }
+.html-o::after { color: deeppink; content: ">"; }
+
+.html-c { color: deeppink; }
+.html-c::before { color: deeppink; content: "</"; }
+.html-c::after { color: deeppink; content: ">"; }
+
+.meta { color: deeppink; }
+.meta::before { color: deeppink; content: "<"; }
+.meta::after { color: deeppink; content: ">"; }
+
+.title-o { color: deeppink; }
+.title-o::before { color: deeppink; content: "<"; }
+.title-o::after { color: deeppink; content: ">"; }
+
+.title-c { color: deeppink; }
+.title-c::before { color: deeppink; content: "</"; }
+.title-c::after { color: deeppink; content: ">"; }
+
+.value { color: yellow; }
+.value::before { color: yellow; content: "\""; }
+.value::after { color: yellow; content: "\""; }

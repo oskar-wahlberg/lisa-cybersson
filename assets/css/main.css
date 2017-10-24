@@ -36,7 +36,8 @@ body {
 }
 
 .page-header h1 {
-    color: #342009;
+    color: #000;
+/*    color: #342009;*/
     font-family: 'Source Code Pro', monospace;
     font-size: 64px;
 }
@@ -63,7 +64,8 @@ body {
 .nav-header h1 {
     padding: 15px 0 15px 0;
     
-    color: #342009;
+    color: #000;
+/*    color: #342009;*/
     font-family: 'Source Code Pro', monospace;
     font-size: 32px;
     font-weight: bold;
@@ -91,7 +93,8 @@ body {
     
     background: #A1D6E2;
     
-    color: #342009;
+    color: #000;
+/*    color: #342009;*/
     font-family: 'Source Code Pro', monospace;
     font-size: 24px;
     line-height: 40px;
@@ -113,7 +116,8 @@ body {
     margin-top: 20px;
     margin-bottom: 5px;
     
-    color: #342009;
+    color: #000;
+/*    color: #342009;*/
     font-size: 24px;
     font-family: 'Source Code Pro', monospace;
     text-align: center;
