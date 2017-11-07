@@ -1,0 +1,148 @@
+@charset "utf-8";
+
+.content-holder {
+    width: 98%;
+    min-height: 100px;
+    
+    margin: 15px auto;
+    
+    box-shadow: 0 0 3px #BCBABE;
+    
+    background: #F1F1F2;
+}
+
+.content-header {
+    margin-left: 50px;
+    
+    padding-top: 15px;
+    
+    font-family: 'So urce Code Pro', monospace;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.top-container {
+    width: calc(100% - 103px);
+    padding: 0 50px 10px 53px;
+    
+/*    border-bottom: 2px solid #DEDDDD;*/
+}
+
+.top-container p {
+    font-family: 'Source Code Pro', monospace;
+}
+
+.category-jump-holder {
+    width: 100%;
+    min-height: 100px;
+    
+    margin: 10px 0;
+}
+
+.cat-list {
+    margin-left: 25px;
+    
+    list-style: disc;
+}
+
+.cl-item {
+    width: 250px;
+    height: auto;
+    
+    margin-bottom: 5px;
+}
+
+.cl-item p {
+    display: block;
+    width: 250px;
+    height: auto;
+    
+    font-family: 'Source Code Pro', monospace;
+    text-decoration: underline;
+    
+    cursor: pointer;
+}
+
+.cl-item p:hover {
+    color: #1995AD;
+}
+
+.group-holder {
+    width: 100%;
+    min-height: 100px;
+    
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.group-holder:nth-child(odd) {
+    border-top: 2px solid #DEDDDD;
+    border-bottom: 2px solid #DEDDDD;
+    background-color: #EBEBEB;
+}
+
+.group-header {
+    margin: 15px 25px 0 25px;
+    
+    padding-bottom: 5px;
+    
+    border-bottom: 1px solid #222;
+    
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    
+    font-family: 'Source Code Pro', monospace;
+    font-size: 32px;
+}
+
+.group-row-holder {
+    width: calc(100% - 60px);
+    min-height: 50px;
+    
+    margin: 0 30px 15px 30px;
+    
+    box-shadow: 0 0 3px #444;
+    
+    background: #fff;
+}
+
+.top-group-row {
+    width: 100%;
+    min-height: 50px;
+    
+    display: grid;
+    grid-template-columns: 1.25fr 3fr 100px;
+    grid-template-rows: 1fr;
+}
+
+.group-row {
+    width: 100%;
+    min-height: 50px;
+    
+    display: grid;
+    grid-template-columns: 1.25fr 3fr 100px;
+    grid-template-rows: 1fr;
+}
+
+.group-row:nth-child(even) {
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    background: #f7f7f7;
+}
+
+.top-property, .top-description, .top-css, .property, .description, .css {
+    display: flex;
+    align-items: center;
+    
+    margin-left: 25px;
+}
+
+.top-property p, .top-description p, .top-css p {
+    font-size: 18px;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: bold;
+}
+
+.property p, .description p, .css p {
+    font-family: 'Source Code Pro', monospace;
+}

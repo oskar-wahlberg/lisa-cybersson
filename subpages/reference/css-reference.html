@@ -1,0 +1,1312 @@
+<!DOCTYPE html>
+<html lang="sv-se">
+    <head>
+        <!-- meta tags -->
+        <meta charset="utf-8">
+        <!-- title -->
+        <title>Code Source CSS Reference</title>
+        <!-- Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet"> <!-- font-family: 'Source Code Pro', monospace;-->
+        <!-- CSS - Reset -->
+        <link rel="stylesheet" href="../../assets/lib/css/reset.css">
+        <!-- CSS - Font Awesome -->
+        <link rel="stylesheet" href="../../assets/lib/css/font-awesome-4.7.0/css/font-awesome.min.css">
+        <!-- CSS - My own -->
+        <link rel="stylesheet" href="../../assets/css/main.css">
+        <link rel="stylesheet" href="../../assets/css/reference/css-reference.css">
+    </head>
+    
+    <body>
+        <div class="container">
+            <!-- FIXED GLOBAL ELEMENTS START -->
+            
+            <button onclick="smooth_scroll_to(document.documentElement, 0, 1000);" id="bttb"><i class="fa fa-arrow-up"></i></button>
+
+            
+            <!--  FIXED GLOBAL ELEMENTS END  -->
+            <header class="page-header">
+                <h1>Code Source</h1>
+            </header>
+            
+            <nav class="page-nav">
+                <header class="nav-header">
+                    <h1>Navigation</h1>
+                </header>
+                
+                <ul class="link-list">
+                    <li class="link-holder">
+                        <a href="../../index.html" class="link cl">Home</a>
+                    </li>
+                    
+                    <li class="link-header-container">
+                        <h1>CSS</h1>
+                    </li>
+                    
+                    <li class="link-holder">
+                        <a href="../learn-css.html" class="link cl">CSS Home</a>
+                    </li>
+                    
+                    <li class="link-holder">
+                        <a class="link active">CSS References</a>
+                    </li>
+                    
+                    <li>
+                        <a class="link">Coming soon...</a>
+                    </li>
+                </ul>
+            </nav>
+            
+            <main class="main-content">
+                <section class="content-holder">
+                    <h1 class="content-header">CSS Reference</h1>
+                    <section class="top-container">
+                        <p>Down below all CSS references will be listed in categories.</p>
+                        
+                        <section class="category-jump-holder">
+                            <ul class="cat-list">
+                                <li class="cl-item">
+                                    <p onclick="smooth_scroll_to(document.documentElement, 670, 1000);">Color</p>
+                                </li>
+                                
+                                <li class="cl-item">
+                                    <p onclick="smooth_scroll_to(document.documentElement, 912, 1000);">Background and Borders</p>
+                                </li>
+                                
+                                <li class="cl-item">
+                                    <p onclick="smooth_scroll_to(document.documentElement, 3194, 1000);">Basic Box</p>
+                                </li>
+                                
+                                <li class="cl-item">
+                                    <p>Flexible Box</p>
+                                </li>
+                                
+                                <li class="cl-item">
+                                    <p>Text</p>
+                                </li>
+                                
+                                <li class="cl-item">
+                                    <p>Text Decoration</p>
+                                </li>
+                                
+                                <li class="cl-item">
+                                    <p>Fonts</p>
+                                </li>
+                                
+                                <li class="cl-item">
+                                    <p>Writing modules</p>
+                                </li>
+                            
+                                <li class="cl-item">
+                                    <p>Table</p>
+                                </li>
+                                
+                                <li class="cl-item">
+                                    <p>List and Counters</p>
+                                </li>
+                                
+                                <li class="cl-item">
+                                    <p>Animation</p>
+                                </li>
+                                
+                                <li class="cl-item">
+                                    <p>Transform</p>
+                                </li>
+                                
+                                <li class="cl-item">
+                                    <p>Transition</p>
+                                </li>
+                                
+                                <li class="cl-item">
+                                    <p>Basic User Interface</p>
+                                </li>
+                                
+                                <li class="cl-item">
+                                    <p>Multi-column</p>
+                                </li>
+                                
+                                <li class="cl-item">
+                                    <p>Paged Media</p>
+                                </li>
+                                
+                                <li class="cl-item">
+                                    <p>Generated Content</p>
+                                </li>
+                                
+                                <li class="cl-item">
+                                    <p>Filter Effects</p>
+                                </li>
+                                
+                                <li class="cl-item">
+                                    <p>Image/Replaced Content</p>
+                                </li>
+                                
+                                <li class="cl-item">
+                                    <p>Masking</p>
+                                </li>
+                                
+                                <li class="cl-item">
+                                    <p>Speech</p>
+                                </li>
+                            </ul>
+                        </section>
+                        
+                        <p>The "CSS" column indicates in which CSS version the property is defined (CSS1, CSS2, or CSS3).</p>
+                    </section>
+                    
+                    <section class="group-holder" id="Color">
+                        <h1 class="group-header">Color Properties</h1>
+                        
+                        <ul class="group-row-holder">
+                            <li class="top-group-row">
+                                <div class="top-property">
+                                    <p>Property</p>
+                                </div>
+                                
+                                <div class="top-description">
+                                    <p>Description</p>
+                                </div>
+                                
+                                <div class="top-css">
+                                    <p>CSS</p>
+                                </div>
+                            </li>
+                            
+                            <li class="group-row">
+                                <div class="property">
+                                    <p>color</p>
+                                </div>
+                                
+                                <div class="description">
+                                    <p>Sets the color of text</p>
+                                </div>
+                                
+                                <div class="css">
+                                    <p>1</p>
+                                </div>
+                            </li>
+                            
+                            <li class="group-row">
+                                <div class="property">
+                                    <p>opacity</p>
+                                </div>
+                                
+                                <div class="description">
+                                    <p>Sets the opacity level for an element</p>
+                                </div>
+                                
+                                <div class="css">
+                                    <p>3</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </section>
+                    
+                    <section class="group-holder" id="BackgroundAndBorder">
+                        <h1 class="group-header">Background and Border Properties</h1>
+                        
+                        <ul class="group-row-holder">
+                            <li class="top-group-row">
+                                <div class="top-property">
+                                    <p>Property</p>
+                                </div>
+                                
+                                <div class="top-description">
+                                    <p>Description</p>
+                                </div>
+                                
+                                <div class="top-css">
+                                    <p>CSS</p>
+                                </div>
+                            </li>
+                            
+                            <li class="group-row">
+                                <div class="property">
+                                    <p>background</p>
+                                </div>
+                                
+                                <div class="description">
+                                    <p>A shorthand property for setting all the background properties in one declaration</p>
+                                </div>
+                                
+                                <div class="css">
+                                    <p>1</p>
+                                </div>
+                            </li>
+                            
+                            <li class="group-row">
+                                <div class="property">
+                                    <p>background-attachment</p>
+                                </div>
+                                
+                                <div class="description">
+                                    <p>Sets whether a background image is fixed or scrolls with the rest of the page</p>
+                                </div>
+                                
+                                <div class="css">
+                                    <p>1</p>
+                                </div>
+                            </li>
+                            
+                            <li class="group-row">
+                                <div class="property">
+                                    <p>background-blend-mode</p>
+                                </div>
+                                
+                                <div class="description">
+                                    <p>Specifies the blending mode for each background layer (color/image)</p>
+                                </div>
+                                
+                                <div class="css">
+                                    <p>3</p>
+                                </div>
+                            </li>
+                            
+                            <li class="group-row">
+                                <div class="property">
+                                    <p>background-color</p>
+                                </div>
+                                
+                                <div class="description">
+                                    <p>Specifies the background color of an element</p>
+                                </div>
+                                
+                                <div class="css">
+                                    <p>1</p>
+                                </div>
+                            </li>
+                            
+                            <li class="group-row">
+                                <div class="property">
+                                    <p>background-image</p>
+                                </div>
+                                
+                                <div class="description">
+                                    <p>Specifies one or more background images for an element</p>
+                                </div>
+                                
+                                <div class="css">
+                                    <p>1</p>
+                                </div>
+                            </li>
+                            
+                            <li class="group-row">
+                                <div class="property">
+                                    <p>background-position</p>
+                                </div>
+                                
+                                <div class="description">
+                                    <p>Specifies the position of a background image</p>
+                                </div>
+                                
+                                <div class="css">
+                                    <p>1</p>
+                                </div>
+                            </li>
+                            
+                            <li class="group-row">
+                                <div class="property">
+                                    <p>background-repeat</p>
+                                </div>
+                                
+                                <div class="description">
+                                    <p>Sets how a background image will be repeated</p>
+                                </div>
+                                
+                                <div class="css">
+                                    <p>1</p>
+                                </div>
+                            </li>
+                            
+                            <li class="group-row">
+                                <div class="property">
+                                    <p>background-clip</p>
+                                </div>
+                                
+                                <div class="description">
+                                    <p>Specifies the painting area of the background</p>
+                                </div>
+                                
+                                <div class="css">
+                                    <p>3</p>
+                                </div>
+                            </li>
+                            
+                            <li class="group-row">
+                                <div class="property">
+                                    <p>background-origin</p>
+                                </div>
+                                
+                                <div class="description">
+                                    <p>Specifies where the background image(s) is/are positioned</p>
+                                </div>
+                                
+                                <div class="css">
+                                    <p>3</p>
+                                </div>
+                            </li>
+                            
+                            <li class="group-row">
+                                <div class="property">
+                                    <p>background-size</p>
+                                </div>
+                                
+                                <div class="description">
+                                    <p>Specifies the size of the background image(s)</p>
+                                </div>
+                                
+                                <div class="css">
+                                    <p>3</p>
+                                </div>
+                            </li>
+                            
+                            <li class="group-row">
+                                <div class="property">
+                                    <p>border</p>
+                                </div>
+                                
+                                <div class="description">
+                                    <p>Sets all the border properties in one declaration</p>
+                                </div>
+                                
+                                <div class="css">
+                                    <p>1</p>
+                                </div>
+                            </li>
+                            
+                            <li class="group-row">
+                                <div class="property">
+                                    <p>border-bottom</p>
+                                </div>
+                                
+                                <div class="description">
+                                    <p>Sets all the bottom border properties in one declaration</p>
+                                </div>
+                                
+                                <div class="css">
+                                    <p>1</p>
+                                </div>
+                            </li>
+                            
+                            <li class="group-row">
+                                <div class="property">
+                                    <p>border-bottom-color</p>
+                                </div>
+                                
+                                <div class="description">
+                                    <p>Sets the color of the bottom border</p>
+                                </div>
+                                
+                                <div class="css">
+                                    <p>1</p>
+                                </div>
+                            </li>
+                            
+                            <li class="group-row">
+                                <div class="property">
+                                    <p>border-bottom-left-radius</p>
+                                </div>
+                                
+                                <div class="description">
+                                    <p>Defines the shape of the border of the bottom-left corner</p>
+                                </div>
+                                
+                                <div class="css">
+                                    <p>3</p>
+                                </div>
+                            </li>
+                            
+                            <li class="group-row">
+                                <div class="property">
+                                    <p>border-bottom-right-radius</p>
+                                </div>
+                                
+                                <div class="description">
+                                    <p>Defines the shape of the border of the bottom-right corner</p>
+                                </div>
+                                
+                                <div class="css">
+                                    <p>3</p>
+                                </div>
+                            </li>
+                            
+                            <li class="group-row">
+                                <div class="property">
+                                    <p>border-bottom-style</p>
+                                </div>
+                                
+                                <div class="description">
+                                    <p>Sets the style of the bottom border</p>
+                                </div>
+                                
+                                <div class="css">
+                                    <p>1</p>
+                                </div>
+                            </li>
+                            
+                            <li class="group-row">
+                                <div class="property">
+                                    <p>border-bottom-width</p>
+                                </div>
+                                
+                                <div class="description">
+                                    <p>Sets the width of the bottom border</p>
+                                </div>
+                                
+                                <div class="css">
+                                    <p>1</p>
+                                </div>
+                            </li>
+                            
+                            <li class="group-row">
+                                <div class="property">
+                                    <p>border-color</p>
+                                </div>
+                                
+                                <div class="description">
+                                    <p>Sets the color of the four borders</p>
+                                </div>
+                                
+                                <div class="css">
+                                    <p>1</p>
+                                </div>
+                            </li>
+                            
+                            <li class="group-row">
+                                <div class="property">
+                                    <p>border-image</p>
+                                </div>
+                                
+                                <div class="description">
+                                    <p>A shorthand property for setting all the border-image-* properties</p>
+                                </div>
+                                
+                                <div class="css">
+                                    <p>3</p>
+                                </div>
+                            </li>
+                            
+                            <li class="group-row">
+                                <div class="property">
+                                    <p>border-image-outset</p>
+                                </div>
+                                
+                                <div class="description">
+                                    <p>Specifies the amount of which the border image area extends beyond the border box</p>
+                                </div>
+                                
+                                <div class="css">
+                                    <p>3</p>
+                                </div>
+                            </li>
+                            
+                            <li class="group-row">
+                                <div class="property">
+                                    <p>border-image-repeat</p>
+                                </div>
+                                
+                                <div class="description">
+                                    <p>Specifies wheter the border image should be repeated, rounded or stretched</p>
+                                </div>
+                                
+                                <div class="css">
+                                    <p>3</p>
+                                </div>
+                            </li>
+                            
+                            <li class="group-row">
+                                <div class="property">
+                                    <p>border-image-slice</p>
+                                </div>
+                                
+                                <div class="description">
+                                    <p>Specifies how to slice the border image</p>
+                                </div>
+                                
+                                <div class="css">
+                                    <p>3</p>
+                                </div>
+                            </li>
+                            
+                            <li class="group-row">
+                                <div class="property">
+                                    <p>border-image-source</p>
+                                </div>
+                                
+                                <div class="description">
+                                    <p>Specifies the path to the image to be used as a border</p>
+                                </div>
+                                
+                                <div class="css">
+                                    <p>3</p>
+                                </div>
+                            </li>
+                            
+                            <li class="group-row">
+                                <div class="property">
+                                    <p>border-image-width</p>
+                                </div>
+                                
+                                <div class="description">
+                                    <p>Specifies the widths of the image-border</p>
+                                </div>
+                                
+                                <div class="css">
+                                    <p>3</p>
+                                </div>
+                            </li>
+                            
+                            <li class="group-row">
+                                <div class="property">
+                                    <p>border-left</p>
+                                </div>
+                                
+                                <div class="description">
+                                    <p>Sets all the left border properties in one declaration</p>
+                                </div>
+                                
+                                <div class="css">
+                                    <p>1</p>
+                                </div>
+                            </li>
+                            
+                            <li class="group-row">
+                                <div class="property">
+                                    <p>border-left-color</p>
+                                </div>
+                                
+                                <div class="description">
+                                    <p>Sets the color of the left border</p>
+                                </div>
+                                
+                                <div class="css">
+                                    <p>1</p>
+                                </div>
+                            </li>
+                            
+                            <li class="group-row">
+                                <div class="property">
+                                    <p>border-left-style</p>
+                                </div>
+                                
+                                <div class="description">
+                                    <p>Sets the style of the left border</p>
+                                </div>
+                                
+                                <div class="css">
+                                    <p>1</p>
+                                </div>
+                            </li>
+                            
+                            <li class="group-row">
+                                <div class="property">
+                                    <p>border-left-width</p>
+                                </div>
+                                
+                                <div class="description">
+                                    <p>Sets the width of the left border</p>
+                                </div>
+                                
+                                <div class="css">
+                                    <p>1</p>
+                                </div>
+                            </li>
+                            
+                            <li class="group-row">
+                                <div class="property">
+                                    <p>border-radius</p>
+                                </div>
+                                
+                                <div class="description">
+                                    <p>A shorthand property for setting all the four border-*-radius properties</p>
+                                </div>
+                                
+                                <div class="css">
+                                    <p>3</p>
+                                </div>
+                            </li>
+                            
+                            <li class="group-row">
+                                <div class="property">
+                                    <p>border-right</p>
+                                </div>
+                                
+                                <div class="description">
+                                    <p>Sets all the right border properties in one declaration</p>
+                                </div>
+                                
+                                <div class="css">
+                                    <p>1</p>
+                                </div>
+                            </li>
+                            
+                            <li class="group-row">
+                                <div class="property">
+                                    <p>border-right-color</p>
+                                </div>
+                                
+                                <div class="description">
+                                    <p>Sets the color of the right border</p>
+                                </div>
+                                
+                                <div class="css">
+                                    <p>1</p>
+                                </div>
+                            </li>
+                            
+                            <li class="group-row">
+                                <div class="property">
+                                    <p>border-right-style</p>
+                                </div>
+                                
+                                <div class="description">
+                                    <p>Sets the style of the right border</p>
+                                </div>
+                                
+                                <div class="css">
+                                    <p>1</p>
+                                </div>
+                            </li>
+                            
+                            <li class="group-row">
+                                <div class="property">
+                                    <p>border-right-width</p>
+                                </div>
+                                
+                                <div class="description">
+                                    <p>Sets the width of the right border</p>
+                                </div>
+                                
+                                <div class="css">
+                                    <p>1</p>
+                                </div>
+                            </li>
+                            
+                            <li class="group-row">
+                                <div class="property">
+                                    <p>border-style</p>
+                                </div>
+                                
+                                <div class="description">
+                                    <p>Sets the style of the four borders</p>
+                                </div>
+                                
+                                <div class="css">
+                                    <p>1</p>
+                                </div>
+                            </li>
+                            
+                            <li class="group-row">
+                                <div class="property">
+                                    <p>border-top</p>
+                                </div>
+                                
+                                <div class="description">
+                                    <p>Sets all the top border properties in one declaration</p>
+                                </div>
+                                
+                                <div class="css">
+                                    <p>1</p>
+                                </div>
+                            </li>
+                            
+                            <li class="group-row">
+                                <div class="property">
+                                    <p>border-top-color</p>
+                                </div>
+                                
+                                <div class="description">
+                                    <p>Sets the color of the top border</p>
+                                </div>
+                                
+                                <div class="css">
+                                    <p>1</p>
+                                </div>
+                            </li>
+                            
+                            <li class="group-row">
+                                <div class="property">
+                                    <p>border-top-left-radius</p>
+                                </div>
+                                
+                                <div class="description">
+                                    <p>Defines the shape of the border of the top-left corner</p>
+                                </div>
+                                
+                                <div class="css">
+                                    <p>3</p>
+                                </div>
+                            </li>
+                            
+                            <li class="group-row">
+                                <div class="property">
+                                    <p>border-top-right-radius</p>
+                                </div>
+                                
+                                <div class="description">
+                                    <p>Defines the shape of the border of the top-right-corner</p>
+                                </div>
+                                
+                                <div class="css">
+                                    <p>3</p>
+                                </div>
+                            </li>
+                            
+                            <li class="group-row">
+                                <div class="property">
+                                    <p>border-top-style</p>
+                                </div>
+                                
+                                <div class="description">
+                                    <p>Sets the style of the top-border</p>
+                                </div>
+                                
+                                <div class="css">
+                                    <p>1</p>
+                                </div>
+                            </li>
+                            
+                            <li class="group-row">
+                                <div class="property">
+                                    <p>border-top-width</p>
+                                </div>
+                                
+                                <div class="description">
+                                    <p>Sets the width of the top border</p>
+                                </div>
+                                
+                                <div class="css">
+                                    <p>1</p>
+                                </div>
+                            </li>
+                            
+                            <li class="group-row">
+                                <div class="property">
+                                    <p>box-decoration-break</p>
+                                </div>
+                                
+                                <div class="description">
+                                    <p>Sets the behaviour of the background and border of an element at page-break, or, for in-line elements, at line-break</p>
+                                </div>
+                                
+                                <div class="css">
+                                    <p>3</p>
+                                </div>
+                            </li>
+                            
+                            <li class="group-row">
+                                <div class="property">
+                                    <p>box-shadow</p>
+                                </div>
+                                
+                                <div class="description">
+                                    <p>Attaches one or more drop-shadows to the box</p>
+                                </div>
+                                
+                                <div class="css">
+                                    <p>3</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </section>
+                    
+                    <section class="group-holder">
+                        <h1 class="group-header">Basic Box Properties</h1>
+                        
+                        <ul class="group-row-holder">
+                            <li class="top-group-row">
+                                <div class="top-property">
+                                    <p>Property</p>
+                                </div>
+                                
+                                <div class="top-description">
+                                    <p>Description</p>
+                                </div>
+                                
+                                <div class="top-css">
+                                    <p>CSS</p>
+                                </div>
+                            </li>
+                            
+                            <li class="group-row">
+                                <div class="property">
+                                    <p>bottom</p>
+                                </div>
+                                
+                                <div class="description">
+                                    <p>Specifies the bottom position of a positioned element</p>
+                                </div>
+                                
+                                <div class="css">
+                                    <p>2</p>
+                                </div>
+                            </li>
+                            
+                            <li class="group-row">
+                                <div class="property">
+                                    <p>clear</p>
+                                </div>
+                                
+                                <div class="description">
+                                    <p>Specifies which sides of an element where other floating elements are not allowed</p>
+                                </div>
+                                
+                                <div class="css">
+                                    <p>1</p>
+                                </div>
+                            </li>
+                            
+                            <li class="group-row">
+                                <div class="property">
+                                    <p>clip</p>
+                                </div>
+                                
+                                <div class="description">
+                                    <p>Clips an absolutely positioned element</p>
+                                </div>
+                                
+                                <div class="css">
+                                    <p>2</p>
+                                </div>
+                            </li>
+                            
+                            <li class="group-row">
+                                <div class="property">
+                                    <p>display</p>
+                                </div>
+                                
+                                <div class="description">
+                                    <p>Specifies how a certain HTML element should be displayed</p>
+                                </div>
+                                
+                                <div class="css">
+                                    <p>1</p>
+                                </div>
+                            </li>
+                            
+                            <li class="group-row">
+                                <div class="property">
+                                    <p>float</p>
+                                </div>
+                                
+                                <div class="description">
+                                    <p>Specifies whether or not a box should float</p>
+                                </div>
+                                
+                                <div class="css">
+                                    <p>1</p>
+                                </div>
+                            </li>
+                            
+                            <li class="group-row">
+                                <div class="property">
+                                    <p>height</p>
+                                </div>
+                                
+                                <div class="description">
+                                    <p>Sets the height of an element</p>
+                                </div>
+                                
+                                <div class="css">
+                                    <p>1</p>
+                                </div>
+                            </li>
+                            
+                            <li class="group-row">
+                                <div class="property">
+                                    <p>left</p>
+                                </div>
+                                
+                                <div class="description">
+                                    <p>Specifies the left position of a positioned element</p>
+                                </div>
+                                
+                                <div class="css">
+                                    <p>2</p>
+                                </div>
+                            </li>
+                            
+                            <li class="group-row">
+                                <div class="property">
+                                    <p>margin</p>
+                                </div>
+                                
+                                <div class="description">
+                                    <p>Sets all the margin properties in one declaration</p>
+                                </div>
+                                
+                                <div class="css">
+                                    <p>1</p>
+                                </div>
+                            </li>
+                            
+                            <li class="group-row">
+                                <div class="property">
+                                    <p>margin-bottom</p>
+                                </div>
+                                
+                                <div class="description">
+                                    <p>Sets the bottom margin of an element</p>
+                                </div>
+                                
+                                <div class="css">
+                                    <p>1</p>
+                                </div>
+                            </li>
+                            
+                            <li class="group-row">
+                                <div class="property">
+                                    <p>margin-left</p>
+                                </div>
+                                
+                                <div class="description">
+                                    <p>Sets the left margin of an element</p>
+                                </div>
+                                
+                                <div class="css">
+                                    <p>1</p>
+                                </div>
+                            </li>
+                            
+                            <li class="group-row">
+                                <div class="property">
+                                    <p>margin-right</p>
+                                </div>
+                                
+                                <div class="description">
+                                    <p>Sets the right margin of an element</p>
+                                </div>
+                                
+                                <div class="css">
+                                    <p>1</p>
+                                </div>
+                            </li>
+                            
+                            <li class="group-row">
+                                <div class="property">
+                                    <p>margin-top</p>
+                                </div>
+                                
+                                <div class="description">
+                                    <p>Sets the top margin of an element</p>
+                                </div>
+                                
+                                <div class="css">
+                                    <p>1</p>
+                                </div>
+                            </li>
+                            
+                            <li class="group-row">
+                                <div class="property">
+                                    <p>max-height</p>
+                                </div>
+                                
+                                <div class="description">
+                                    <p>Sets the maximum height of an element</p>
+                                </div>
+                                
+                                <div class="css">
+                                    <p>2</p>
+                                </div>
+                            </li>
+                            
+                            <li class="group-row">
+                                <div class="property">
+                                    <p>max-width</p>
+                                </div>
+                                
+                                <div class="description">
+                                    <p>Sets the maximum width of an element</p>
+                                </div>
+                                
+                                <div class="css">
+                                    <p>2</p>
+                                </div>
+                            </li>
+                            
+                            <li class="group-row">
+                                <div class="property">
+                                    <p>min-height</p>
+                                </div>
+                                
+                                <div class="description">
+                                    <p>Sets the minimum height of an element</p>
+                                </div>
+                                
+                                <div class="css">
+                                    <p>2</p>
+                                </div>
+                            </li>
+                            
+                            <li class="group-row">
+                                <div class="property">
+                                    <p>min-width</p>
+                                </div>
+                                
+                                <div class="description">
+                                    <p>Sets the minimum width of an element</p>
+                                </div>
+                                
+                                <div class="css">
+                                    <p>2</p>
+                                </div>
+                            </li>
+                            
+                            <li class="group-row">
+                                <div class="property">
+                                    <p>overflow</p>
+                                </div>
+                                
+                                <div class="description">
+                                    <p>Specifies what happens if content overflows an element's box</p>
+                                </div>
+                                
+                                <div class="css">
+                                    <p>2</p>
+                                </div>
+                            </li>
+                            
+                            <li class="group-row">
+                                <div class="property">
+                                    <p>overflow-x</p>
+                                </div>
+                                
+                                <div class="description">
+                                    <p>Specifies whether or not to clip the left/right edges of the content, if it overflows the element's content area</p>
+                                </div>
+                                
+                                <div class="css">
+                                    <p>3</p>
+                                </div>
+                            </li>
+                            
+                            <li class="group-row">
+                                <div class="property">
+                                    <p>overflow-y</p>
+                                </div>
+                                
+                                <div class="description">
+                                    <p>Specifies whether or not to clip the top/bottom edges of the content, if it overflows the element's content area</p>
+                                </div>
+                                
+                                <div class="css">
+                                    <p>3</p>
+                                </div>
+                            </li>
+                            
+                            <li class="group-row">
+                                <div class="property">
+                                    <p>padding</p>
+                                </div>
+                                
+                                <div class="description">
+                                    <p>Sets all the padding properties in one declaration</p>
+                                </div>
+                                
+                                <div class="css">
+                                    <p>1</p>
+                                </div>
+                            </li>
+                            
+                            <li class="group-row">
+                                <div class="property">
+                                    <p>padding-bottom</p>
+                                </div>
+                                
+                                <div class="description">
+                                    <p>Sets the bottom padding of an element</p>
+                                </div>
+                                
+                                <div class="css">
+                                    <p>1</p>
+                                </div>
+                            </li>
+                            
+                            <li class="group-row">
+                                <div class="property">
+                                    <p>padding-right</p>
+                                </div>
+                                
+                                <div class="description">
+                                    <p>Sets the right padding of an element</p>
+                                </div>
+                                
+                                <div class="css">
+                                    <p>1</p>
+                                </div>
+                            </li>
+                            
+                            <li class="group-row">
+                                <div class="property">
+                                    <p>padding-top</p>
+                                </div>
+                                
+                                <div class="description">
+                                    <p>Sets the top padding of an element</p>
+                                </div>
+                                
+                                <div class="css">
+                                    <p>1</p>
+                                </div>
+                            </li>
+                            
+                            <li class="group-row">
+                                <div class="property">
+                                    <p>position</p>
+                                </div>
+                                
+                                <div class="description">
+                                    <p>Specifies the type of positioning method used for an element (static, relative, absolute or fixed)</p>
+                                </div>
+                                
+                                <div class="css">
+                                    <p>2</p>
+                                </div>
+                            </li>
+                            
+                            <li class="group-row">
+                                <div class="property">
+                                    <p>right</p>
+                                </div>
+                                
+                                <div class="description">
+                                    <p>Specifies the right position of a positioned element</p>
+                                </div>
+                                
+                                <div class="css">
+                                    <p>2</p>
+                                </div>
+                            </li>
+                            
+                            <li class="group-row">
+                                <div class="property">
+                                    <p>top</p>
+                                </div>
+                                
+                                <div class="description">
+                                    <p>Specifies the top position of a positioned element</p>
+                                </div>
+                                
+                                <div class="css">
+                                    <p>2</p>
+                                </div>
+                            </li>
+                            
+                            <li class="group-row">
+                                <div class="property">
+                                    <p>visibility</p>
+                                </div>
+                                
+                                <div class="description">
+                                    <p>Specifies whether or not an element is visible</p>
+                                </div>
+                                
+                                <div class="css">
+                                    <p>2</p>
+                                </div>
+                            </li>
+                            
+                            <li class="group-row">
+                                <div class="property">
+                                    <p>width</p>
+                                </div>
+                                
+                                <div class="description">
+                                    <p>Sets the width of an element</p>
+                                </div>
+                                
+                                <div class="css">
+                                    <p>1</p>
+                                </div>
+                            </li>
+                            
+                            <li class="group-row">
+                                <div class="property">
+                                    <p>vertical-align</p>
+                                </div>
+                                
+                                <div class="description">
+                                    <p>Sets the vertical alignment of an element</p>
+                                </div>
+                                
+                                <div class="css">
+                                    <p>1</p>
+                                </div>
+                            </li>
+                            
+                            <li class="group-row">
+                                <div class="property">
+                                    <p>z-index</p>
+                                </div>
+                                
+                                <div class="description">
+                                    <p>Sets the stack order of a positioned element</p>
+                                </div>
+                                
+                                <div class="css">
+                                    <p>2</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </section>
+                    
+                    <!--
+                    <section class="group-holder">
+                        <h1 class="group-header"></h1>
+                        
+                        <ul class="group-row-holder">
+                            <li class="top-group-row">
+                                <div class="top-property">
+                                    <p>Property</p>
+                                </div>
+                                
+                                <div class="top-description">
+                                    <p>Description</p>
+                                </div>
+                                
+                                <div class="top-css">
+                                    <p>CSS</p>
+                                </div>
+                            </li>
+                            
+                            <li class="group-row">
+                                <div class="property">
+                                    <p></p>
+                                </div>
+                                
+                                <div class="description">
+                                    <p></p>
+                                </div>
+                                
+                                <div class="css">
+                                    <p></p>
+                                </div>
+                            </li>
+                        </ul>
+                    </section>
+                    -->
+                    
+                    <!--
+                    <li class="group-row">
+                        <div class="property">
+                            <p>background</p>
+                        </div>
+                                
+                        <div class="description">
+                            <p></p>
+                        </div>
+                                
+                        <div class="css">
+                            <p>1</p>
+                        </div>
+                    </li>
+                    -->
+                </section>
+            </main>
+        </div>
+        
+        <!-- My Scripts -->
+        <script src="../../assets/js/main.js"></script>
+        <script src="../../assets/js/bttb-scroll.js"></script>
+        <script src="../../assets/js/css-reference-cat-jump.js"></script>
+    </body>
+</html>
