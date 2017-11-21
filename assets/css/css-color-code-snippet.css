@@ -1,0 +1,47 @@
+@charset "utf-8";
+
+/* General design for all text in the code snippet, can be changed later */
+
+.code-snippet {
+    padding-top: 2px;
+    padding-bottom: 4px;
+    
+    border-left: 5px solid #49C749;
+    
+    box-shadow: 0 0 7px #999;
+    
+    background: #231f45;
+}
+
+.code-snippet p {
+    display: inline;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 16px;
+}
+
+.p { color: #fff; }
+
+/* ROWS */
+
+.row { padding-left: 0px; }
+.row-1 { padding-left: 25px; }
+
+.blank-row { width: 21px; height: 21px; }
+
+/* TAGS */
+
+.attribute { color: #45e2ef; }
+.attribute::after { content: ":"; color: #fff; }
+
+.bracket-o::before { content: "{"; color: #fff; }
+.bracket-c::after { content: "}"; color: #fff; }
+
+.charset { color: #72f072; }
+
+.close-attribute::after { content: ";"; color: #fff; }
+
+.element { color: hotpink; }
+
+.string { color: yellow; }
+
+.value { color: mediumpurple; }
