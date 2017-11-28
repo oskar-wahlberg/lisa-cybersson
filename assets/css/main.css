@@ -168,3 +168,6 @@ body {
 #bttb:hover {
     background: #242020;
 }
+
+#comment::before { content: "<!"; }
+#comment::after { content: ">"; }
