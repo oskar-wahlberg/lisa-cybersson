@@ -55,6 +55,8 @@ body {
     box-shadow: 0 0 5px black;
     
     background: #A1D6E2;
+    
+    transition: all .3s;
 }
 
 .nav-header {

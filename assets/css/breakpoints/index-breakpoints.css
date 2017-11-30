@@ -1,0 +1,133 @@
+/* Breakpoints for index */
+
+@media screen and (max-width: 1260px) {
+    .link {
+        font-size: 20px;
+    }
+    .content-box h3 {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 1120px) {
+    .content-holder {
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            "html html"
+            "css css"
+            "js js"
+            "serverside serverside";
+    }
+    
+    .css-box .buttons, .js-box .buttons {
+        width: 650px;
+    }
+    
+    .css-box .buttons button, .js-box .buttons button {
+        width: 300px;
+    }
+    
+    .server-side-lang-box {
+        height: 650px;
+        justify-content: space-around;
+        flex-flow: column;
+    }
+    
+    .sql-box, .php-box {
+        width: 95%;
+    }
+    
+    .sql-box h3, .php-box h3 {
+        font-size: 20px;
+    }
+    
+    .sql-box button, .php-box button {
+        width: 500px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .container {
+        grid-template-areas:
+            "header header"
+            "main-content main-content";
+    }
+    
+    .nav-icon {
+        display: block;
+    }
+    
+    .page-nav {
+        width: 30%;
+        
+        margin-left: -100%;
+        
+        position: absolute;
+        top: 100px;
+    }
+    
+    .nav-checkbox:checked + .page-nav {
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .page-nav {
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .content-holder {
+        width: 100%;
+        
+        margin-top: 10px;
+    }
+    
+    .html-box .buttons, .css-box .buttons, .js-box .buttons {
+        width: 600px;
+        height: 175px;
+        flex-flow: column;
+    }
+    
+    .html-box .buttons button, .css-box .buttons button, .js-box .buttons button {
+        width: 500px;
+        height: 75px;
+    }
+    
+    .server-side-lang-box {
+        height: 610px;
+        justify-content: space-between;
+        
+        box-shadow: none;
+        background: #FFF;
+    }
+    
+    .sql-box, .php-box {
+        width: 100%;
+        box-shadow: 0 0 3px #A9A9A9;
+        background: #F1F1F2;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .page-header h1 {
+        font-size: 48px;
+    }
+    
+    .page-nav {
+        width: 100%;
+    }
+    
+    .link {
+        font-size: 24px;
+    }
+    
+    .html-box .buttons, .css-box .buttons, .js-box .buttons {
+        width: 400px;
+    }
+    
+    .html-box .buttons button, .css-box .buttons button, .js-box .buttons button, .sql-box button, .php-box button {
+        width: 300px;
+    }
+}
