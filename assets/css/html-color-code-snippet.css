@@ -54,6 +54,10 @@
 
 .charset { color: aqua; }
 
+.comment { color: #6f66be; }
+.comment::before { content: "<!-- "; }
+.comment::after { content: " -->"; }
+
 .doctype { color: white; }
 .doctype::before { color: white; content: "<!"; }
 .doctype::after { color: white; content: ">"; }

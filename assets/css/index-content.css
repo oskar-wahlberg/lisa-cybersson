@@ -331,20 +331,3 @@
     box-shadow: 0 0 7px #A9A9A9;
     background: #FFF;
 }
-
-/* NAV ICON STYLE */
-
-.nav-icon {
-    display: none;
-    
-    font-size: 20px;
-    
-    position: absolute;
-    top: 75px;
-    left: 10px;
-    z-index: 999;
-}
-
-.nav-checkbox {
-    display: none;
-}

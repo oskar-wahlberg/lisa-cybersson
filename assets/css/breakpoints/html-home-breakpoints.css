@@ -1,0 +1,66 @@
+/* Breakpoints for HTML Home */
+
+@media screen and (max-width: 1110px) {
+    .nav-header h1 {
+        font-size: 28px;
+    }
+    
+    .link {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .container {
+        grid-template-areas:
+            "header header"
+            "main-content main-content";
+    }
+    
+    .nav-icon {
+        display: block;
+    }
+    
+    .page-nav {
+        width: 30%;
+        margin-left: -100%;
+        position: absolute;
+        top: 100px;
+    }
+    
+    .nav-checkbox:checked + .page-nav {
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 705px) {
+    .nav-header h1 {
+        font-size: 20px;
+    }
+    
+    .link-header-container {
+        font-size: 20px;
+    }
+    
+    .link {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 665px) {
+    .content-header h1 {
+        font-size: 28px;
+    }
+    
+    .common-questions h2 {
+        font-size: 24px;
+    }
+    
+    .q {
+        font-size: 18px;
+    }
+    
+    .a-holder p {
+        font-size: 16px;
+    }
+}
